@@ -1,0 +1,164 @@
+<title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+       color: aliceblue;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+  padding: 0;
+  background-image: url('mulher.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+    }
+
+    h1 {
+      text-align: center;
+    }
+p{ 
+  color: #00ffdd;
+}
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery-item video {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery-item .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+     
+      color: #f52397;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer {
+      background-color: #ff66e6;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #333;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .footer a:hover {
+      color: #007bff;
+    }
+
+    .footer .social-icons {
+      margin-top: 40px;
+    }
+
+    .footer .social-icons a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: #333;
+      color: #e9229d;
+      border-radius: 50%;
+      line-height: 30px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .footer .social-icons a:hover {
+      background-color: #81005a;
+    }
+
+    a{
+  
+      text-decoration: none;
+
+    }
+  </style>
+</head>
+<body>
+  <h1>Meu Portfólio</h1>
+  
+
+     
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="gata1.jpeg" alt="Foto 1">
+    
+    </div>
+    <div class="gallery-item">
+      <img src="gata2.jpeg" alt="Foto 2">
+     
+    </div>
+
+    <section>
+    <div class="gallery-item">
+      <video src="fest.mp4" controls></video>
+    
+      
+    </div>
+    <div class="gallery-item">
+      <video src="fest.mp4" controls></video>
+      
+    </div></section>
+  </div>
+  <p style="text-align: left;">SOBRE MIM</p>
+  <P>ESCREVER SOBRE MIM AQUI ABAIXO</P>
+  <p style="text-align: center;">MEUS TRABALHOS</p>
+  <p style="text-align: center;">
+  <a href="ensaio.html">ENSAIO</a></p>
+ 
+ 
+  <footer class="footer">
+    
+<!-- Exemplo de link com ícone do WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=NUMERO_DO_TELEFONE" target="_blank">
+  <i class="fab fa-whatsapp"></i> WhatsApp
+</a>
+
+<!-- Exemplo de link com ícone do Instagram -->
+<a href="https://www.instagram.com/SEU_PERFIL/" target="_blank">
+  <i class="fab fa-instagram"></i> Instagram
+</a>
+  
+    </div>
+  </footer>
+</body>
+</html>
